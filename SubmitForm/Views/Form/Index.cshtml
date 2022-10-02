@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SubmitForm.Models.Form>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="form" content="width=device-width"/>
+    <title>Index</title>
+</head>
+<body>
+    <form method="post" enctype="application/x-www-form-urlencoded" asp-controller="Form" asp-acion="index">
+        <table>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.FirstName)</td>
+                <td><input type="text" id="fName" name="firstName" /></td>
+            </tr>
+            <tr>
+                <td>@Html.DisplayNameFor(model => model.LastName)</td>
+                <td><input type="text" id="lName" name="lastName" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"/></td>
+            </tr>
+        </table>
+        <hr />
+        @*if open the comment, the result will display under the form*@
+        @*@ViewBag.Name*@
+    </form>
+</body>
+</html>

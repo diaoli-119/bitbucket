@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IGm38abpCGdvgoSOI1qFMkRYXOp0P/87D6yZZq1O3kxUBgzwwQqFcBOrc67AuNArMIFC8CRI7QGDwh5eZ44hoA==",
+  "success": true,
+  "projectFilePath": "/Users/vincentdiao/Projects/bitbucket/SubmitForm/SubmitForm.csproj",
+  "expectedPackageFiles": [
+    "/Users/vincentdiao/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
